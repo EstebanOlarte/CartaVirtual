@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="366dp"
+        android:layout_height="259dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="72dp">
+
+        <Button
+            android:id="@+id/ButMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="But_Menu"
+            android:text="Menú" />
+
+        <Button
+            android:id="@+id/ButMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="But_Map"
+            android:text="Mapa" />
+
+        <Button
+            android:id="@+id/ButReserva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="But_Reserva"
+            android:text="Reserva" />
+
+        <Button
+            android:id="@+id/ButSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="But_Salir"
+            android:text="Salir" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
