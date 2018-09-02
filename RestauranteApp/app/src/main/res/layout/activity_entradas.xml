@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Postres">
+    tools:context=".Entradas">
 
     <ListView
-        android:id="@+id/lv_Postres"
+        android:id="@+id/lv_Entradas"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>

@@ -19,8 +19,8 @@ public class MainActivity extends Activity {
         startActivity(mapActivity);
     }
 
-    public void But_Menu(View view){
-        Intent menuActivity = new Intent(this,Postres.class);
+    public void Butt_Menu(View v){
+        Intent menuActivity = new Intent(this,Menu.class);
         startActivity(menuActivity);
     }
 

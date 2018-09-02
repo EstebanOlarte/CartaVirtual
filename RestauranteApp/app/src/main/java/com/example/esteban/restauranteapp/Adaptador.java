@@ -48,7 +48,7 @@ public class Adaptador extends BaseAdapter {
 
         Entidad Item = (Entidad) getItem(position);
 
-        //convertView= LayoutInflater.from(context).inflate(R.layout.activity_items),null);
+        convertView= LayoutInflater.from(context).inflate(R.layout.activity_items,null);
 
         ImageView imgFoto =(ImageView) convertView.findViewById(R.id.imgFoto);
         TextView tvTitulo = (TextView) convertView.findViewById(R.id.tvTitulo);

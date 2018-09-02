@@ -17,7 +17,7 @@
             android:id="@+id/ButMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="But_Menu"
+            android:onClick="Butt_Menu"
             android:text="Menú" />
 
         <Button
